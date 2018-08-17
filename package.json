@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "private": true,
+  "scripts": {
+    "start": "meteor --port 4000",
+    "debug": "meteor --inspect --settings dev.json --port 4000",
+    "debug-brk": "meteor --inspect-brk --settings dev.json --port 4000",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.51",
+    "meteor-node-stubs": "^0.4.1",
+    "react": "^16.4.1",
+    "react-art": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-native-popup-menu": "^0.14.0",
+    "react-native-web": "^0.8.4"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.0.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "jest": "^23.1.0",
+    "resize-observer-polyfill": "^1.5.0"
+  }
+}
